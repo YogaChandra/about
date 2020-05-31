@@ -1,8 +1,9 @@
 /*untuk fullscreen*/
 body, html {
   height: 100%;
+  width: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Montserrat", sans-serif;
+  font: 400 1rem/1.8 "Montserrat", sans-serif;
   color: white;
 }
 /*efek parallax*/
@@ -29,25 +30,13 @@ body, html {
 /*YOGA CHANDRA*/
 .nama-awal {
   text-align: center;
-  font-size: 50px;
+  font-size: 3rem;
   color: #e6e6e6;
   z-index: 1;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
-}
-/*sidenav*/
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 50px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  right: 0;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-  outline: none;
 }
 
 /* sosmed */
