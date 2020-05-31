@@ -2,8 +2,6 @@
 body, html {
   width: 100%;
   height: 100%;
-  margin-left: 100px;
-  margin-right: 100px;
   margin: 0;
   font: 400 1rem/1.8 "Montserrat", sans-serif;
   color: white;
@@ -39,6 +37,12 @@ body, html {
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
+}
+
+.garis-judul {
+  color: #e6e6e6; 
+  width: 400px; 
+  transform: translateY(-35px);
 }
 
 /* sosmed */
@@ -110,10 +114,14 @@ body, html {
 .about-me {
   color: black;
   font-family: "GlacialIndifferenceRegular";
-  font-size: 400%;
+  font-size: 60px;
   margin-top: -40px;
   margin-left: 10%;
   padding: 0;
+}
+
+.spasi-about-me {
+
 }
 
 /*Garis2 di About Me*/
@@ -123,6 +131,10 @@ body, html {
   height: 280px;
   transform: translateY(-230px);
   margin-left: 21%;
+}
+
+.garis-judul-about {
+  display: none;
 }
 
 /*Text about*/
@@ -220,3 +232,79 @@ body, html {
   position: relative;
 }
 
+
+
+/*----------------------------------
+layar lebih kecil
+------------------------------------*/
+
+@media (max-width: 1100px) {
+  .about-me {
+    margin-left: 10%;
+    font-size: 50px;
+  }
+}
+
+/*----------------------------------
+layar lebih kecil lagi
+------------------------------------*/
+
+@media (max-width: 900px) {
+  .about-me {
+    margin-left: 5%;
+    font-size: 45px;
+    padding: 0;
+  }
+
+  .myskill {
+    transform: translateY(-200px);
+  }
+}
+
+/*----------------------------------
+layar paling kecil
+------------------------------------*/
+
+@media (max-width: 825px) {
+  /*Hilangin enter about me*/
+  .spasi-about-me {
+    display: none;
+  }
+
+  /*hilangin garis vertikal*/
+  .garis-tetap {
+    display: none;
+  }
+
+  /*penempatan about me*/
+  .about-me {
+    transform: translateY(-30px);
+    color: black;
+    font-family: "GlacialIndifferenceRegular";
+    font-size: 60px;
+    padding-right: 24%;
+    padding-left: 26%;
+  }
+  .garis-judul-about {
+    display: block;
+    margin-left: -5%; 
+    color: black; 
+    width: 325px; 
+    transform: translateY(-45px);
+  }
+
+  /*penempatan paragraf*/
+  .text-about {
+    transform: translateY(-60px);
+    font-size: 24px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: justify;
+    color: black;
+    width: 92%;
+  }
+
+  .myskill {
+    transform: translateY(200px);
+  }
+}
