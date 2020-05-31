@@ -89,6 +89,9 @@ body, html {
   text-decoration: none; 
 }
 
+.space-sosmed {
+  display: none;
+}
 /*Avatar*/
 .avatar {
   border : solid #e6e6e6 5px;
@@ -147,6 +150,10 @@ body, html {
   padding-left: 30px;
   width: 60%;
 }
+
+.myskill {
+    transform: translateY(-50px);
+  }
 
 .skill-judul {
   color: blue;
@@ -231,6 +238,10 @@ body, html {
   transform: rotate(45deg);
   position: relative;
 }
+.box-khusus {
+  margin-left: 50%; 
+  transform: translateY(-700px);
+}
 
 
 
@@ -259,10 +270,21 @@ layar lebih kecil lagi
   .myskill {
     transform: translateY(-200px);
   }
+
+  .skill-judul {
+  color: blue;
+  font-size: 170px;
+  margin-top: -400px;
+  margin-left: 85px;
+  line-height: 150px;
+  opacity: 20%;
+  z-index: 1;
+  position: relative;
+}
 }
 
 /*----------------------------------
-layar paling kecil
+layar kecil kecil lagi
 ------------------------------------*/
 
 @media (max-width: 825px) {
@@ -306,5 +328,143 @@ layar paling kecil
 
   .myskill {
     transform: translateY(200px);
+  }
+
+  .skill-judul {
+  color: blue;
+  font-size: 170px;
+  margin-top: -400px;
+  margin-left: 50px;
+  line-height: 150px;
+  opacity: 20%;
+  z-index: 1;
+  position: relative;
+  }
+}
+
+/*----------------------------------
+layar lebih kecil
+------------------------------------*/
+
+@media (max-width: 649px) {
+  .about-me {
+    transform: translateY(-30px);
+    color: black;
+    font-family: "GlacialIndifferenceRegular";
+    font-size: 50px;
+    padding-right: 24%;
+    padding-left: 26%;
+  }
+  .garis-judul-about {
+    display: block;
+    margin-left: -5%; 
+    color: black; 
+    width: 270px; 
+    transform: translateY(-45px);
+  }
+
+  .myskill {
+    transform: translateY(300px);
+  }
+
+  .skill-judul {
+  color: blue;
+  font-size: 130px;
+  margin-top: -400px;
+  margin-left: 50px;
+  line-height: 150px;
+  opacity: 20%;
+  z-index: 1;
+  position: relative;
+  }
+}
+
+/*----------------------------------
+layar terkecil
+------------------------------------*/
+
+@media (max-width: 543px) {
+  .about-me {
+    transform: translateY(-30px);
+    color: black;
+    font-family: "GlacialIndifferenceRegular";
+    font-size: 40px;
+    left: 0;
+  }
+  .garis-judul-about {
+    display: block;
+    margin-left: -5%; 
+    color: black; 
+    width: 215px; 
+    transform: translateY(-35px);
+  }
+
+  .myskill {
+    transform: translateY(-50px);
+  }
+
+  .skill-judul {
+  color: blue;
+  font-size: 130px;
+  margin-top: -200px;
+  margin-left: 50px;
+  line-height: 150px;
+  opacity: 20%;
+  z-index: 1;
+  position: relative;
+  }
+
+  .space-sosmed {
+    display: block;
+  }
+
+  .text-about {
+    text-align: left;
+  }
+
+  .box-khusus {
+  margin-left: 50%; 
+  transform: translateY(-900px);
+  }
+
+.teks-kiri {
+   margin-left: 30px;
+   margin-top: 130px;
+   font-size: 30px;
+   color: black;
+   font-family: "GlacialIndifferenceRegular";
+   z-index: 5;
+   position: relative;
+  }
+
+.desc-kiri {
+   font-size: 20px; 
+   margin-top: -30px; 
+   line-height: 20px; 
+   margin-left: 30px; 
+   color: black;
+   width: 90%;
+   z-index: 5;
+   position: relative;
+  }
+  .teks-kanan {
+   margin-left: 30px;
+   margin-top: 130px;
+   font-size: 30px;
+   color: black;
+   font-family: "GlacialIndifferenceRegular";
+   z-index: 5;
+   position: relative;
+  }
+
+.desc-kanan {
+   font-size: 20px; 
+   margin-top: -30px; 
+   line-height: 20px; 
+   margin-left: 30px; 
+   color: black;
+   width: 90%;
+   z-index: 5;
+   position: relative;
   }
 }
