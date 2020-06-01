@@ -156,12 +156,11 @@ body, html {
   }
 
 .skill-judul {
-  color: blue;
+  color: #66ff66;
   font-size: 170px;
   margin-top: -400px;
   margin-left: 120px;
   line-height: 150px;
-  opacity: 20%;
   z-index: 1;
   position: relative;
 }
@@ -272,12 +271,11 @@ layar lebih kecil lagi
   }
 
   .skill-judul {
-  color: blue;
+  color: #66ff66;
   font-size: 170px;
   margin-top: -400px;
   margin-left: 85px;
   line-height: 150px;
-  opacity: 20%;
   z-index: 1;
   position: relative;
 }
@@ -331,12 +329,11 @@ layar kecil kecil lagi
   }
 
   .skill-judul {
-  color: blue;
+  color: #66ff66;
   font-size: 170px;
   margin-top: -400px;
   margin-left: 50px;
   line-height: 150px;
-  opacity: 20%;
   z-index: 1;
   position: relative;
   }
@@ -368,12 +365,11 @@ layar lebih kecil
   }
 
   .skill-judul {
-  color: blue;
+  color: #66ff66;
   font-size: 130px;
   margin-top: -400px;
   margin-left: 50px;
   line-height: 150px;
-  opacity: 20%;
   z-index: 1;
   position: relative;
   }
@@ -383,7 +379,7 @@ layar lebih kecil
 layar terkecil
 ------------------------------------*/
 
-@media (max-width: 543px) {
+@media (max-width: 480px) {
   .about-me {
     transform: translateY(-30px);
     color: black;
@@ -404,12 +400,11 @@ layar terkecil
   }
 
   .skill-judul {
-  color: blue;
+  color: #66ff66;
   font-size: 130px;
   margin-top: -200px;
   margin-left: 50px;
   line-height: 150px;
-  opacity: 20%;
   z-index: 1;
   position: relative;
   }
